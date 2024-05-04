@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Q1 -->
+    <table border="black">
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <TD>Delhi</TD>
+                <TD>1</TD>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </thead>
+    </table>
+    <hr>
+    <!--Q2 -->
+    <form action="/action">
+        <div>
+            <label>
+                Name:
+                <input type="text">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            Sex:
+            <input type="radio" id="male" name="gender" value="m">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="f">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            Country:
+            <select id="coutry_n" name="country_n">
+                <option>Select an option</option>
+                <option value="in">India</option>
+                <option value="nl">Nepal</option>
+                <option value="us">USA</option>
+                <option value="can">Canada</option>
+
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message:</label>
+            <br>
+            <textarea id="msg" name="msg" rows="3" cols="24"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="subs" name="subs">
+            <label for="subs">Subscribe?</label>
+        </div>
+        <br>
+
+        <div>
+            <button>Submit</button>
+        </div>
+        <hr>
+        <!-- Q3 -->
+    </form>
+    <div>
+        <form action="/action">
+            <h3>Feedback Form</h3>
+            <div>
+                <label>
+                    Name:
+                    <input type="text" placeholder="Write your name">
+                </label>
+            </div>
+            <br>
+
+
+            <div>
+                <label>
+                    Email:
+                    <input type="text" placeholder="Write your email">
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label for="feedback">Message:</label>
+                <br>
+                <textarea id="feedback" name="feeb_k" rows="4" cols="32"></textarea>
+            </div>
+            <br>
+
+            <div>
+                Rate us out of 5:
+                <br>
+                <input type="radio" id="feedbk" name="feedbk" value="1">
+                <label for="feedbk">1</label>
+                <br>
+                <input type="radio" id="feedbk" name="feedbk" value="2">
+                <label for="feedbk">2</label>
+                <br>
+                <input type="radio" id="feedbk" name="feedbk" value="3">
+                <label for="feedbk">3</label>
+                <br>
+                <input type="radio" id="feedbk" name="feedbk" value="4">
+                <label for="feedbk">4</label>
+                <br>
+                <input type="radio" id="feedbk" name="feedbk" value="5">
+                <label for="feedbk">5</label>
+
+
+            </div>
+            <br>
+
+            <button>Send your message!</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
